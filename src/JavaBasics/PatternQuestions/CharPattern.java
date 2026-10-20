@@ -3,7 +3,7 @@ package JavaBasics.PatternQuestions;
 import java.util.Scanner;
 
 public class CharPattern {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the no of rows you want to print: ");
         int n = sc.nextInt();
@@ -16,5 +16,7 @@ public class CharPattern {
             }
             System.out.println();
         }
+
+        sc.close();
     }
 }
